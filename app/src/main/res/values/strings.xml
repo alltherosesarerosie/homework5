@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">homework5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lacey_fernandez">Lacey Fernandez</string>
+    <string name="user_profile">USER PROFILE</string>
+    <string name="user_name">User Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="enter_user_name">  Enter User Name</string>
+    <string name="enter_email">  Enter Email</string>
+    <string name="send">SEND</string>
+    <string name="welcome">Welcome</string>
+</resources>
