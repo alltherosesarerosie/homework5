@@ -9,6 +9,8 @@ import com.geektech.homework5.databinding.FragmentSecondBinding
 
 class SecondFragment : Fragment() {
     private lateinit var binding: FragmentSecondBinding
+    var username: String?=""
+    var email: String?=""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -20,10 +22,10 @@ class SecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val uN = arguments?.getString("username")
-        val eM = arguments?.getString("email")
-        binding.tvUsername.text = "uN"
-        binding.tvEmail.text = "eM"
+        username = arguments?.getString("username")
+        email = arguments?.getString("email")
+        binding.tvUsername.text = username
+        binding.tvEmail.text = email
     }
 
 
